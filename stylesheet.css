@@ -1,0 +1,25 @@
+html * {
+    font-family: SF Pro Text, monospace !important;
+}
+
+body {
+    background-color: #FAD4C0;
+    color: #8B3A3A;
+    accent-color: #FFF5E1;
+    padding-left: 20px;
+}
+
+footer {
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+}
+
+img {
+    border: 2px dotted #8B3A3A;
+}
+
+a {
+    color: #521919;
+    text-decoration: none;
+}

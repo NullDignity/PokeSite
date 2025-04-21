@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Pokésite</title>
+    </head>
+
+    <body>    
+        <script src="script.js"></script>
+        <audio id="sound"><source type="audio/ogg"></audio>
+
+        <h1>Pokésite</h1>
+        <p>A simple site that picks a random Pokémon and fetches basic information about it.</p>
+        <button onclick="fetchPokeData()">Random Pokemon!</button>
+
+        <br><br>
+
+        <ul>
+            <img src="" alt="pokemonsprite" id="sprite" style="display: none">
+            <p id="name"></p>
+            <p id="id"></p>
+            <button hidden id="audiobutton" onclick="playAudio()">🔊</button>
+        </ul>
+
+        <footer>
+            <a href="https://github.com/NullDignity" target="_blank">@NullDignity</a>, 2025
+            <p>This was a short project made in an afternoon to better understand the use of APIs, dynamic DOM manipulation and data fetching.  Credit to <a href="https://pokeapi.co/" target="_blank">PokeAPI</a> contributors.</p>
+        </footer>
+    </body>
+</html>
